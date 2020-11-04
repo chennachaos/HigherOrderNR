@@ -1,0 +1,3 @@
+Iterative schemes with higher-order convergence. These can be seen as higher-order vesions of the Newton-Raphson scheme.
+
+In my efforts towards improving the efficiency of nonlinear finite element analysis simulations, I tried different schemes. Although, it is possible to achieve higher-order convergence, I found that, for nonlinear FE simulations, the load step size needs to be smaller in order for the scheme to converge. This, I believe, is due to the fact that same Jacobian (stiffness matrix) is used multiple times.
